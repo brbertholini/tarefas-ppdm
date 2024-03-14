@@ -67,33 +67,37 @@
     <View
         android:id="@+id/view11"
         android:layout_width="72dp"
-        android:layout_height="235dp"
+        android:layout_height="280dp"
         android:background="#1F2D55"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view4" />
 
     <View
         android:id="@+id/view12"
         android:layout_width="72dp"
-        android:layout_height="235dp"
+        android:layout_height="280dp"
         android:background="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/view11" />
+        app:layout_constraintStart_toEndOf="@+id/view11"
+        app:layout_constraintTop_toBottomOf="@+id/view5" />
 
     <View
         android:id="@+id/view13"
         android:layout_width="72dp"
-        android:layout_height="235dp"
+        android:layout_height="280dp"
         android:background="#673AB7"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/view12" />
+        app:layout_constraintStart_toEndOf="@+id/view12"
+        app:layout_constraintTop_toBottomOf="@+id/view7" />
 
     <View
         android:id="@+id/view14"
         android:layout_width="198dp"
-        android:layout_height="235dp"
+        android:layout_height="280dp"
         android:background="#101010"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/view13" />
+        app:layout_constraintStart_toEndOf="@+id/view13"
+        app:layout_constraintTop_toBottomOf="@+id/view9" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
