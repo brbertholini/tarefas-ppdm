@@ -1,0 +1,9 @@
+[submodule "ex07-lista-contatos"]
+	path = ex07-lista-contatos
+	url = https://github.com/brbertholini/contact-list.git
+[submodule "ex06-listagem-restaurantes"]
+	path = ex06-listagem-restaurantes
+	url = https://github.com/brbertholini/restaurant-registration.git
+[submodule "ex05-conversor-moeda"]
+	path = ex05-conversor-moeda
+	url = https://github.com/brbertholini/conversor-moeda.git
